@@ -114,7 +114,9 @@ As we can see, the orthographic projection is a type of projection where objects
  matrix with the method `Matrix4x4.Perspective()`.
 
 One of the problems of projecting texture is that there are no boundaries to
- clip the decal to a specific area. Explain more here...
+ clip the decal to a specific area. Also the projected textures don't integrate
+ with the scene's lighting and shadows, which makes the decals to appear
+ inconsistent with the surrounding environment.
 
 ## Overview of the Unity technique implementation
 
@@ -227,6 +229,8 @@ Generates a perspective projection matrix based on the field of view (FOV),
 ```shell
 Matrix4x4.Perspective(fov, aspect, near, far);
 ```
+
+![Image 3](./Images/FOV_NearPlane_FarPlane_Frustum.jpg "Perspective camera view")
 
 Translation Matrix:
 
