@@ -90,7 +90,7 @@ First I tried to project my texture with orthographic projection, that means
  the projection will ignore the Z axis and won’t take into account how far that
  vertex is from the point of view.
 
-![Image 1](./Images/OrthoVision.png "Orthographic camera view")
+![Image 1](./Images/OrthoVision.jpg "Orthographic camera view")
 
 Then I tried with perspective projection, that means the projection should have
  into account the distance of every vertex with the camera. The left cube has
@@ -98,7 +98,7 @@ Then I tried with perspective projection, that means the projection should have
  perspective view and the right cube has the script `OrthographicProjectionDecal`
  that is taking into consideration a orthographic view.
 
-![Image 2](./Images/PerspectiveVision.png "Perspective camera view")
+![Image 2](./Images/PerspectiveVision.jpg "Perspective camera view")
 
 As we can see, the orthographic projection is a type of projection where objects
  are mapped to flat. Even if the objects gets dragged far way, the size of the
