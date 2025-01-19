@@ -230,7 +230,7 @@ Generates a perspective projection matrix based on the field of view (FOV),
 Matrix4x4.Perspective(fov, aspect, near, far);
 ```
 
-![Image 3](./Images/FOV_NearPlane_FarPlane_Frustum.jpg "Perspective camera view")
+![Image 3](./Images/Frustum.jpg "Perspective camera view")
 
 Translation Matrix:
 
