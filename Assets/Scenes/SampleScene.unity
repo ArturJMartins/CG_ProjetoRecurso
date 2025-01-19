@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 1747025856}
   - component: {fileID: 1747025855}
   m_Layer: 0
-  m_Name: Ortographic cube
+  m_Name: Orthographic cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
